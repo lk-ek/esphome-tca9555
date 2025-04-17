@@ -79,7 +79,7 @@ external_components:
       type: git
       url: https://github.com/lk-ek/esphome-tca9555
       ref: main
-      components: ["tca9555", "gpio_expander"]
+    components: ["tca9555", "gpio_expander"]
 
 tca9555:
   - id: exp0
